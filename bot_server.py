@@ -104,12 +104,11 @@ def comments_background_scanner():
             print(f"[Watcher Error]: {e}")
         time.sleep(30)
 
+# تشغيل الفاحص الدوري في الخلفية تلقائياً سواء تشغيل مباشر أو عبر WSGI/Cloud
+watcher_thread = threading.Thread(target=comments_background_scanner, daemon=True)
+watcher_thread.start()
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     print(f"Dawak Unified Bot Server (Messenger + Comments) running on port {port}...")
-
-    # تشغيل الفاحص الدوري في الخلفية
-    watcher_thread = threading.Thread(target=comments_background_scanner, daemon=True)
-    watcher_thread.start()
-
     app.run(host="0.0.0.0", port=port, debug=False)
