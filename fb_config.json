@@ -1,0 +1,92 @@
+{
+  "APP_ID": "5005692172991127",
+  "APP_SECRET": "92a1b88f12013723896041c7c13d9193",
+  "USER_LONG_LIVED_TOKEN": "EABHIpofTepcBS1spP2rL9xY9zRz5kFgEKupWImrlLEzavPApMtNv6gyxD40QLx4Wnk5b2ZC3uS8KSm0FpYoLTLdRzWoq6jG0ZBC7DKqCAbSeSpOxpxu8jZAZApVSr2WlscetI7isfScZABh26LAY3M9VCJ9HTBA8LimS0PhcoswGZB6zXcGEIf6QamKrBZC5Kz2",
+  "PAGES": {
+    "1192151633977751": {
+      "name": "كارت دواك",
+      "page_id": "1192151633977751",
+      "access_token": "EABHIpofTepcBS4XoBbsLZAWQLCZAoepgVeCUS8AdhpXu5SQKZBrXpk6f7ALVZBgzgrdO7ZAjhs24gdf0wrWM2TRrWoBm27Lonh6wf8rIXYv5auAQHh7Jq9BXVmYeMb4cSD4Yte42N2g6yjQPXJQUB5z20mjWy2xpZBw2ImIpe7ltH9J1WGkEk1UfiXHe4FrW6W5lxG875ZA",
+      "expires_at": 0,
+      "scopes": [
+        "email",
+        "manage_fundraisers",
+        "read_insights",
+        "publish_video",
+        "catalog_management",
+        "ads_mcp_management",
+        "pages_show_list",
+        "ads_management",
+        "ads_read",
+        "business_management",
+        "pages_messaging",
+        "instagram_basic",
+        "leads_retrieval",
+        "whatsapp_business_management",
+        "pages_read_engagement",
+        "pages_manage_metadata",
+        "pages_read_user_content",
+        "pages_manage_ads",
+        "pages_manage_posts",
+        "pages_manage_engagement",
+        "whatsapp_business_messaging",
+        "instagram_branded_content_ads_brand",
+        "facebook_creator_marketplace_discovery",
+        "facebook_branded_content_ads_brand",
+        "public_profile"
+      ],
+      "tasks": [
+        "MANAGE",
+        "CREATE_CONTENT",
+        "MODERATE",
+        "MESSAGING",
+        "ADVERTISE",
+        "ANALYZE",
+        "MANAGE_LEADS"
+      ]
+    },
+    "740698519126246": {
+      "name": "صيدليات  دوا",
+      "page_id": "740698519126246",
+      "access_token": "EABHIpofTepcBS1s412m5fSgr868MinpSGb3VmRhrMuNn913E4VewCvPMjbPZBfQh7RlHNjWmFyBbxspmEpxeZANjRvncCvATBggfFiCCIr9H4IrHHMtTsLx5tJjGM7RtfoCF8W0Ovq2LyJbaZBCmuWgqqxlSBxC28RVGVY6p8AjmeWkhZCvVPQ3Lfg7CpZBghurgQZC0lx",
+      "expires_at": 0,
+      "scopes": [
+        "email",
+        "manage_fundraisers",
+        "read_insights",
+        "publish_video",
+        "catalog_management",
+        "ads_mcp_management",
+        "pages_show_list",
+        "ads_management",
+        "ads_read",
+        "business_management",
+        "pages_messaging",
+        "instagram_basic",
+        "leads_retrieval",
+        "whatsapp_business_management",
+        "pages_read_engagement",
+        "pages_manage_metadata",
+        "pages_read_user_content",
+        "pages_manage_ads",
+        "pages_manage_posts",
+        "pages_manage_engagement",
+        "whatsapp_business_messaging",
+        "instagram_branded_content_ads_brand",
+        "facebook_creator_marketplace_discovery",
+        "facebook_branded_content_ads_brand",
+        "public_profile"
+      ],
+      "tasks": [
+        "MANAGE",
+        "CREATE_CONTENT",
+        "MODERATE",
+        "MESSAGING",
+        "ADVERTISE",
+        "ANALYZE",
+        "MANAGE_LEADS",
+        "VIEW_MONETIZATION_INSIGHTS"
+      ]
+    }
+  }
+}
